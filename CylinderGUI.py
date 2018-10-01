@@ -19,7 +19,7 @@ root = tk.Tk()
 root.title("Volume of Cylinder")
 
 
-labr = tk.Label(root, text = "radius")
+labr = tk.Label(root, text = "radius", fg = "blue")
 labr.pack()
 
 entr = tk.Entry(root)
